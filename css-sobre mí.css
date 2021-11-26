@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.stylo{
+	
+}
+header,footer,nav{
+	margin: 0px auto;
+	padding: 30px;
+	text-align: left; 
+}
+header{
+	font-size: 30px;
+	height: 40px;
+	background-color: black; 
+	padding: 30px;
+	color: #C2A35D;  
+	font-family: 'Adamina', serif;
+}
+.copyright {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+img {
+  float: right; 
+}
+.row{
+    display: flexfirst; 
+}
+.columns{
+    flex: 20%;
+    padding: 0px;
+}
+.columns img{
+    margin-top: 5px;
+    float: right; 
+}
+.box-sizing: border-box;
+
+nav{
+			padding: 40px; padding-left: 40px; padding-right: 40px; 
+			height:10px;
+			background-color:#8A6CF5; 
+}
+nav ul il{
+			display: inline-block;
+			margin-right: 30px;
+			margin-left: 30px;
+			padding:10px;
+			text-decoration: none;
+}
+nav ul il a:hover{
+    background-color: #8065E0; 
+}
+nav il a{
+    background-color: #8A6CF5;
+            color: #F5EFEF;
+            text-decoration: none; 
+            padding: 5px 5px; 
+            display: inline-block;  
+}
+p{
+    color: #AD587; 
+    text-align: center;  
+}
+section{
+    background-color: #FAD956;
+}
+
